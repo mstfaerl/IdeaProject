@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="493.0" prefWidth="1002.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.EbruSanatiControl">
+    <children>
+        <Label layoutX="20.0" layoutY="14.0" text="Adres" />
+        <Label layoutX="22.0" layoutY="121.0" text="Kurs Ücreti" />
+        <Label layoutX="21.0" layoutY="167.0" text="Tekne Ebatı" />
+        <Label layoutX="21.0" layoutY="208.0" prefHeight="21.0" prefWidth="99.0" text="Fırça Çeşidi" />
+        <Label layoutX="22.0" layoutY="309.0" text="Eğitmen" />
+        <Label layoutX="23.0" layoutY="399.0" text="Kursiyer" />
+        <Label layoutX="22.0" layoutY="352.0" prefHeight="21.0" prefWidth="72.0" text="Sorumlu" />
+        <ComboBox fx:id="ebruSorumlu" layoutX="143.0" layoutY="347.0" onMouseClicked="#showSorumlu" prefHeight="31.0" prefWidth="167.0" />
+        <ComboBox fx:id="ebruEgitmen" layoutX="143.0" layoutY="304.0" onMouseClicked="#showEgitmen" prefHeight="31.0" prefWidth="167.0" />
+        <ComboBox fx:id="ebruKursiyer" layoutX="143.0" layoutY="394.0" onMouseClicked="#showKursiyer" prefHeight="31.0" prefWidth="167.0" />
+        <TextField fx:id="ebruKursUcret" layoutX="111.0" layoutY="116.0" prefHeight="31.0" prefWidth="199.0" />
+        <Button layoutX="13.0" layoutY="447.0" mnemonicParsing="false" onAction="#ekle" prefHeight="31.0" prefWidth="72.0" text="Ekle" />
+        <Button layoutX="93.0" layoutY="447.0" mnemonicParsing="false" onAction="#duzenle" prefHeight="31.0" prefWidth="77.0" text="Düzenle" />
+        <Button layoutX="180.0" layoutY="447.0" mnemonicParsing="false" onAction="#listele" prefHeight="31.0" prefWidth="65.0" text="Listele" />
+        <Button layoutX="257.0" layoutY="447.0" mnemonicParsing="false" onAction="#sil" prefHeight="31.0" prefWidth="53.0" text="Sil" />
+        <TextArea fx:id="ebruAdres" layoutX="111.0" layoutY="11.0" prefHeight="89.0" prefWidth="199.0" />
+        <TableView fx:id="ebruSanatiList" layoutX="321.0" layoutY="11.0" onMouseClicked="#show" prefHeight="466.0" prefWidth="665.0">
+            <columns>
+                <TableColumn fx:id="colAdres" prefWidth="88.0" text="Adres" />
+                <TableColumn fx:id="colUcret" text="Ücret" />
+                <TableColumn fx:id="colTekne" text="Tekne" />
+                <TableColumn fx:id="colFirca" prefWidth="87.0" text="Fırça" />
+                <TableColumn fx:id="colTarak" prefWidth="90.0" text="Tarak" />
+                <TableColumn fx:id="colEgitmen" prefWidth="83.0" text="Eğitmen" />
+                <TableColumn fx:id="colSorumlu" prefWidth="82.0" text="Sorumlu" />
+                <TableColumn fx:id="colKursiyer" prefWidth="74.0" text="Kursiyer" />
+            </columns>
+        </TableView>
+        <Label layoutX="20.0" layoutY="258.0" text="Tarak Çeşidi" />
+      <ComboBox fx:id="ebruTarak" layoutX="144.0" layoutY="253.0" onMouseClicked="#showTarak" prefHeight="31.0" prefWidth="166.0" />
+      <ComboBox fx:id="ebruFirca" layoutX="144.0" layoutY="203.0" onMouseClicked="#showFirca" prefHeight="31.0" prefWidth="166.0" />
+      <ComboBox fx:id="ebruTekne" layoutX="143.0" layoutY="162.0" onMouseClicked="#showTekne" prefHeight="31.0" prefWidth="167.0" />
+    </children>
+</AnchorPane>

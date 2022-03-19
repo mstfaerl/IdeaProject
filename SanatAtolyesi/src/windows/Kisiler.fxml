@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="windows.WindowsController">
+    <AnchorPane prefHeight="232.0" prefWidth="306.0">
+        <children>
+            <Button layoutX="66.0" layoutY="55.0" mnemonicParsing="false" onAction="#kursiyersecim" prefHeight="31.0" prefWidth="175.0" text="Kursiyer" />
+            <Button layoutX="66.0" layoutY="107.0" mnemonicParsing="false" onAction="#yonetimsecim" prefHeight="31.0" prefWidth="175.0" text="Yönetim" />
+            <Button layoutX="66.0" layoutY="157.0" mnemonicParsing="false" onAction="#egitmensecim" prefHeight="31.0" prefWidth="175.0" text="Eğitmen" />
+        </children>
+    </AnchorPane>
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+</GridPane>

@@ -1,0 +1,2 @@
+Id : 1 - Ad : Bilgisayar - Fiyat : 350.0
+Id : 2 - Ad : Televizyon - Fiyat : 550.0

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="625.0" y="385.0">sample.Malzemeler</node>
+    <node x="53.500000000000014" y="77.0">sample.Personel</node>
+    <node x="786.0" y="385.0">sample.Main</node>
+    <node x="0.0" y="313.0">controller.YonetimControl</node>
+    <node x="364.0" y="313.0">controller.AhsapBoyamaControl</node>
+    <node x="1078.0" y="313.0">controller.EbruSanatiControl</node>
+    <node x="0.0" y="462.0">sample.AhsapBoyamaAtolyesi</node>
+    <node x="200.0" y="462.0">sample.DesenliTabloAtolyesi</node>
+    <node x="164.0" y="313.0">controller.DesenliTabloControl</node>
+    <node x="174.5" y="77.0">sample.Kursiyer</node>
+    <node x="117.50000000000001" y="0.0">sample.Kisiler</node>
+    <node x="557.0" y="313.0">controller.EgitmenControl</node>
+    <node x="721.0" y="313.0">controller.KursiyerControl</node>
+    <node x="407.0" y="462.0">sample.EbruSanatiAtolyesi</node>
+    <node x="892.0" y="313.0">controller.MalzemelerControl</node>
+    <node x="0.0" y="154.0">sample.Yonetim</node>
+    <node x="114.00000000000001" y="154.0">sample.Egitmen</node>
+    <node x="225.0" y="385.0">sample.SanatAtolyesi</node>
+    <node x="578.5" y="226.0">controller.Islemler</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="sample.Kursiyer" target="sample.Kisiler">
+      <point x="0.0" y="-13.5" />
+      <point x="225.0" y="52.0" />
+      <point x="188.0" y="52.0" />
+      <point x="23.5" y="13.5" />
+    </edge>
+    <edge source="controller.EgitmenControl" target="controller.Islemler">
+      <point x="0.0" y="-13.5" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="controller.KursiyerControl" target="controller.Islemler">
+      <point x="0.0" y="-13.5" />
+      <point x="796.5" y="293.0" />
+      <point x="643.4285714285713" y="293.0" />
+      <point x="14.428571428571331" y="13.5" />
+    </edge>
+    <edge source="controller.MalzemelerControl" target="controller.Islemler">
+      <point x="0.0" y="-13.5" />
+      <point x="975.0" y="283.0" />
+      <point x="657.8571428571429" y="283.0" />
+      <point x="28.85714285714289" y="13.5" />
+    </edge>
+    <edge source="controller.AhsapBoyamaControl" target="controller.Islemler">
+      <point x="0.0" y="-13.5" />
+      <point x="450.5" y="293.0" />
+      <point x="614.5714285714287" y="293.0" />
+      <point x="-14.428571428571331" y="13.5" />
+    </edge>
+    <edge source="controller.DesenliTabloControl" target="controller.Islemler">
+      <point x="0.0" y="-13.5" />
+      <point x="254.0" y="283.0" />
+      <point x="600.1428571428571" y="283.0" />
+      <point x="-28.85714285714289" y="13.5" />
+    </edge>
+    <edge source="sample.DesenliTabloAtolyesi" target="sample.SanatAtolyesi">
+      <point x="0.0" y="-13.5" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="sample.Yonetim" target="sample.Personel">
+      <point x="0.0" y="-13.5" />
+      <point x="47.0" y="129.0" />
+      <point x="78.75000000000001" y="129.0" />
+      <point x="-25.25" y="13.5" />
+    </edge>
+    <edge source="sample.Egitmen" target="sample.Personel">
+      <point x="0.0" y="-13.5" />
+      <point x="161.0" y="129.0" />
+      <point x="129.25" y="129.0" />
+      <point x="25.25" y="13.5" />
+    </edge>
+    <edge source="sample.Personel" target="sample.Kisiler">
+      <point x="0.0" y="-13.5" />
+      <point x="104.00000000000001" y="52.0" />
+      <point x="141.0" y="52.0" />
+      <point x="-23.5" y="13.5" />
+    </edge>
+    <edge source="controller.EbruSanatiControl" target="controller.Islemler">
+      <point x="0.0" y="-13.5" />
+      <point x="1161.0" y="273.0" />
+      <point x="672.2857142857142" y="273.0" />
+      <point x="43.28571428571422" y="13.5" />
+    </edge>
+    <edge source="sample.AhsapBoyamaAtolyesi" target="sample.SanatAtolyesi">
+      <point x="0.0" y="-13.5" />
+      <point x="90.0" y="437.0" />
+      <point x="247.83333333333331" y="437.0" />
+      <point x="-45.666666666666686" y="13.5" />
+    </edge>
+    <edge source="controller.YonetimControl" target="controller.Islemler">
+      <point x="0.0" y="-13.5" />
+      <point x="72.0" y="273.0" />
+      <point x="585.7142857142858" y="273.0" />
+      <point x="-43.28571428571422" y="13.5" />
+    </edge>
+    <edge source="sample.EbruSanatiAtolyesi" target="sample.SanatAtolyesi">
+      <point x="1.1368683772161603E-13" y="-13.5" />
+      <point x="493.5000000000001" y="437.0" />
+      <point x="339.1666666666667" y="437.0" />
+      <point x="45.666666666666686" y="13.5" />
+    </edge>
+  </edges>
+  <settings layout="Hıerarchıc Group" zoom="0.2510088781275222" x="1141.5" y="1219.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
